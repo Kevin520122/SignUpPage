@@ -26,29 +26,25 @@ input[type="text"], input[type="password"]{
 button {
   background-color: #04AA6D;
   color: white;
-  padding: 14px 20px;
+  padding: 15px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 button:hover {
   opacity:1;
 }
 
-/* Extra styles for the cancel button */
+
 .registerbtn {
   padding: 14px 20px;
   background-color: #3662f4;
 }
 
-/* Float cancel and signup buttons and add an equal width */
 .registerbtn, .signinbtn {
   float: left;
   width: 50%;
-}
-input{
-  margin: auto
 }
