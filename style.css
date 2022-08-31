@@ -1,0 +1,54 @@
+h1, h2 {
+  font-family: Lato;
+  text-align:  center;
+}
+span{
+  background-color: #3662f4;
+  border-radius: 10px;
+  color: white;
+  padding: 3px 6px 3px 6px;
+}
+.container {
+  padding: 16px;
+}
+
+.name, .password, .submit-form{
+  display: flex;
+  justify-content: center;
+  margin: auto
+}
+input[type="text"], input[type="password"]{
+  width: 90%;
+  padding: 10px;
+  display: inline-block;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.registerbtn {
+  padding: 14px 20px;
+  background-color: #3662f4;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.registerbtn, .signinbtn {
+  float: left;
+  width: 50%;
+}
+input{
+  margin: auto
+}
